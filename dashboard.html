@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinary Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="logo.png" alt="Logo">
+            <h1>VetRx System</h1>
+        </div>
+        <div class="header-user">
+            <p>Welcome, </p>
+            <button id="logout-btn">Logout</button>
+        </div>
+        <div class="header-user">
+            <p>DOCTOR CONSULTANT </p>
+           <button onclick="window.location.href = 'index.html';">KNOW MORE</button>
+        </div>
+    </header>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="dashboard.html"><img src="home.jpg" alt="Home"></a></li>
+        </ul>
+    </nav>
+    <main class="dashboard">
+        <h2>Dashboard</h2>
+        <div class="container">
+            <div class="box" id="cat-box">
+                <img src="cat.png" alt="Cat">
+                <p>Cat</p>
+                <button onclick="window.location.href = 'cat.html';">KNOW MORE</button>
+                
+            </div>
+            <div class="box" id="dog-box">
+                <img src="dog.png" alt="Dog">
+                <p>Dog</p>
+                <button onclick="window.location.href = 'dog.html';">KNOW MORE</button>
+            </div>
+            <div class="box" id="goat-box">
+                <img src="goat.png" alt="Goat">
+                <p>Goat</p>
+                <button onclick="window.location.href = 'goat.html';">KNOW MORE</button>
+            </div>
+            <div class="box" id="cow-box">
+                <img src="cow.png" alt="Cow">
+                <p>Cow</p>
+                <button onclick="window.location.href = 'cow.html';">KNOW MORE</button>
+            </div>
+            <div class="box" id="cat-box">
+                <img src="chicken-removebg-preview.png" alt="Chicken">
+                <p>Hen</p>
+                <button onclick="window.location.href = 'Hen.html';">KNOW MORE</button>
+            </div>
+            <div class="box" id="dog-box">
+                <img src="countrychicken-removebg-preview.png" alt="Country Chicken">
+                <p>Roster</p>
+                <button onclick="window.location.href = 'countrychicken.html';">KNOW MORE</button>
+            </div>
+            <div class="box" id="goat-box">
+                <img src="parrot.png" alt="Parrot">
+                <p>Birds</p>
+                <button onclick="window.location.href = 'parrot.html';">KNOW MORE</button>
+            </div>
+            <div class="box" id="cow-box">
+                <img src="rab.png" alt="Rabbit">
+                <p>Rabbit</p>
+                <button onclick="window.location.href = 'rabbit.html';">KNOW MORE</button>
+            </div>
+        </div>
+        <section class="updates">
+            <h3>Recent Updates</h3>
+            <ul>
+                <li>Our veterinary experts are now available for virtual consultations.</li>
+                <li>New treatment protocols have been updated for common animal illnesses.</li>
+                <li>Insurance coverage options are now available for your pets.</li>
+            </ul>
+        </section>
+       
+    </main>
+    <script src="dasboard.js"></script>
+</body>
+</html>

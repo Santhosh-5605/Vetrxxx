@@ -1,0 +1,129 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f39c12;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 10;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.disease-description {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+.disease-description:hover {
+    transform: translateY(-5px);
+}
+
+.disease-description h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.disease-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.disease-image {
+    width: 160px;
+    height: 160px;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.disease-image:hover {
+    transform: scale(1.1);
+}
+
+.disease-text {
+    max-width: 700px;
+    color: #555;
+}
+
+.disease-text p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+.disease-text strong {
+    font-size: 1.3em;
+    color: #222;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 25px;
+    font-size: 1.1em;
+}
+
+#back-btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 25px;
+    display: block;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+}
+
+#back-btn:hover {
+    background-color: #e67e22;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .disease-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .disease-image {
+        margin-bottom: 20px;
+    }
+    
+    .disease-text {
+        max-width: 100%;
+    }
+}

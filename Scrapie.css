@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f39c12;  /* Orange background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.disease-description {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.disease-description h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.disease-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.disease-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.disease-text {
+    max-width: 700px;
+}
+
+.disease-text p {
+    margin-bottom: 15px;
+}
+
+.disease-text strong {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#back-btn {
+    background-color: #f39c12;  /* Orange button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#back-btn:hover {
+    background-color: #e67e22;  /* Darker orange for hover effect */
+}

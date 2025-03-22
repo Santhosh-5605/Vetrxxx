@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetRX - Doctor Consultant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>VetRX Doctor Consultant</h1>
+        <div class="district-select">
+            <label for="districts">Select District:</label>
+            <select id="districts" onchange="loadDoctors()">
+                <option value="">-- Choose District --</option>
+                <option value="Ariyalur">Ariyalur</option>
+                <option value="Chengalpattu">Chengalpattu</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Cuddalore">Cuddalore</option>
+                <option value="Dharmapuri">Dharmapuri</option>
+                <option value="Dindigul">Dindigul</option>
+                <option value="Erode">Erode</option>
+                <option value="Kallakurichi">Kallakurichi</option>
+                <option value="Kanchipuram">Kanchipuram</option>
+                <option value="Kanniyakumari">Kanniyakumari</option>
+                <option value="Karur">Karur</option>
+                <option value="Krishnagiri">Krishnagiri</option>
+                <option value="Mayiladuthurai">Mayiladuthurai</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Nagapattinam">Nagapattinam</option>
+                <option value="Namakkal">Namakkal</option>
+                <option value=Nilgiris>Nilgiris</option>
+                <option value=Perambalu>Perambalu</option>
+                <option value=Pudukkottai>Pudukkottai</option>
+                <option value=Ramanathapuram>Ramanathapuram</option>
+                <option value=Ranipet>Ranipet</option>
+                <option value=Salem>Salem</option>
+                <option value=Sivaganga>Sivaganga</option>
+                <option value=Tenkasi>Tenkasi</option>
+                <option value=Thanjavur>Thanjavur</option>
+                <option value=Theni>Theni</option>
+                <option value=Thoothukudi>Thoothukudi</option>
+                <option value=Tiruchirappalli>Tiruchirappalli</option>
+                <option value=Tirunelveli>Tirunelveli</option>
+                <option value=Tirupattur>Tirupattur</option>
+                <option value=Tiruppur>Tiruppur</option>
+                <option value=Tiruvallur>Tiruvallur</option>
+                <option value=Tiruvannamalai>Tiruvannamalai</option>
+                <option value=Tiruvarur>Tiruvarur</option>
+                <option value=Vellore>Vellore</option>
+                <option value=Villupuram>Villupuram</option>
+                <option value=Virudhunagar>Virudhunagar</option>
+            </select>
+        </div>
+    </header>
+
+    <main>
+        <section id="doctors-list">
+            <ul>
+                 <li><p class="sri">The VetRX System is an online platform designed to provide pet owners with seamless access to essential healthcare services.This includes prescribed medications, health tracking, and remote veterinary consultations. Moreover, VetRX extends its support to stray animals by offering necessary medical care and treatment, thereby improving their quality of life. By integrating technology into pet healthcare, VetRX aims to create an efficient and accessible ecosystem where pets receive timely and appropriate medical attention.
+                        With the rise in pet ownership and the growing demand for convenient healthcare solutions, VetRX is well-positioned to serve this expanding market. The platform offers a proactive approach to pet healthcare, ensuring that both domestic and stray animals receive the care they need. Through advanced mobile technologies and digital healthcare solutions, VetRX envisions a future where pet welfare is prioritized, and access to veterinary services is simplified for all.</p></li>
+                 </ul>
+            <div id="doctors-container"></div>
+            <button id="back-home-btn" onclick="goToHome()" style="display: none;">Back to Home</button>
+        </section>
+    </main>
+
+    
+</body>
+</html>

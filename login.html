@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vetrx - Login</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4; /* Light background for the body */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Container for the login form */
+        .login-container {
+            background-color: white;
+            padding: 40px;
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Title styling */
+        h1 {
+            color: #ff6f00; /* Orange color for the title */
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+
+        /* Input fields styling */
+        input {
+            width: 80%;
+            padding: 8px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background-color: #fafafa;
+            
+        } 
+
+        /* Button styling */
+        button {
+            width: 50%;
+            padding: 14px;
+            background-color: #ff6f00; /* Orange button color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* Hover effect for the button */
+        button:hover {
+            background-color: #e65c00; /* Darker orange on hover */
+        }
+
+        /* Footer for forgot password and signup links */
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .footer a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Vetrx</h1>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">
+            <a href = "dashboard.html">Login</a>
+        </button>
+        </form>
+        <div class="footer">
+            <p><a href="#">Forgot Password?</a></p>
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>\
+            
+        </div>
+    </div>
+</body>
+</html>
